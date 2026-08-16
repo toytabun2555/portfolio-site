@@ -28,8 +28,8 @@ Do not introduce additional frameworks, UI kits, or CSS-in-JS libraries without 
 - Desired action: [e.g. email me, book a call]
 
 ## Design tokens (the hard rules)
-- **Colors**: exactly 3 core colors — primary `[hex]`, secondary `[hex]`, text `[hex]`. Never add a fourth core color. Accent usage must reuse these.
-- **Typography**: 1–2 font families maximum. Defined scale only: H1, H2, H3, body, caption. No arbitrary sizes.
+- **Colors**: primary `#007c7a` (teal), secondary `#000000`, text `#000000` on light backgrounds / `#ffffff` on dark backgrounds. Never add a fourth core color. Accent usage must reuse these.
+- **Typography**: Thai text uses Prompt, English text uses Switzer. Defined scale only: H1, H2, H3, Body, Caption. No arbitrary sizes.
 - **Spacing**: base unit 8px. Only use multiples: 8, 16, 24, 32, 48, 64. Never arbitrary pixel values.
 - **Breakpoints**: desktop 1440px, tablet 810px, mobile 390px. Every page must be checked at all three.
 
