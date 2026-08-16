@@ -38,6 +38,25 @@ npm run start   # run the production build locally
 npm run lint    # run ESLint
 ```
 
+## Claude Code skills
+
+Installed under `.claude/skills/` via [`npx skills`](https://skills.sh):
+
+| Skill | Source | What it does |
+|---|---|---|
+| `shadcn` | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | Add, search, fix, style, and compose shadcn/ui components in this project |
+| `migrate-radix-to-base` | shadcn-ui/ui | Migrate components/projects from Radix UI primitives to Base UI |
+| `accessibility` | [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills) | WCAG 2.2 accessibility audits — screen reader support, keyboard nav, ARIA |
+| `best-practices` | addyosmani/web-quality-skills | Modern web dev best practices — security, compatibility, code quality |
+| `core-web-vitals` | addyosmani/web-quality-skills | Optimize LCP, INP, and CLS for page experience and search ranking |
+| `performance` | addyosmani/web-quality-skills | General web performance audits — faster loads, smaller bundles |
+| `seo` | addyosmani/web-quality-skills | Search engine visibility — meta tags, structured data, sitemaps |
+| `web-quality-audit` | addyosmani/web-quality-skills | Combined performance + accessibility + SEO + best-practices audit |
+| `vercel-react-best-practices` | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | React/Next.js performance patterns from Vercel Engineering (rendering, data fetching, bundle size) |
+| `vercel-optimize` | vercel-labs/agent-skills | Vercel cost/performance optimization for deployed Next.js apps — Core Web Vitals, caching, function invocations |
+
+Only the React/Next.js performance-relevant skills were kept from `vercel-labs/agent-skills`; skills unrelated to this project (React Native, view transitions, Vercel CLI auth, deploy automation, writing/design guidelines) were removed after install.
+
 ## Agent permissions
 
 `.claude/settings.json` encodes the approval rules from `CLAUDE.md`:
