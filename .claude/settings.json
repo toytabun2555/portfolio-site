@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(app/**)",
+      "Edit(components/**)",
+      "Edit(styles/**)",
+      "Edit(content/**)",
+      "Write(app/**)",
+      "Write(components/**)",
+      "Write(styles/**)",
+      "Write(content/**)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run start:*)",
+      "Bash(npx next lint:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout -b:*)",
+      "Bash(git push origin HEAD:*)"
+    ],
+    "ask": [
+      "Bash(vercel:*)",
+      "Bash(vercel --prod:*)",
+      "Bash(vercel deploy:*)",
+      "Bash(vercel domains:*)",
+      "Bash(vercel project:*)",
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm add:*)",
+      "Bash(rm:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push origin main:*)",
+      "Bash(git rebase:*)",
+      "Bash(git reset --hard:*)"
+    ],
+    "deny": []
+  }
+}
